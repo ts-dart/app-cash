@@ -17,7 +17,7 @@ export default function Home() {
     }; 
 
     useEffect(() => {
-        fetch('https://app-cash-api-deploy.onrender.com/balance',
+        fetch('http://localhost:3001/balance',
         { 
             method: 'GET',
             mode: 'cors',
